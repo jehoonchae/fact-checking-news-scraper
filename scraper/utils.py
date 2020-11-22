@@ -50,3 +50,6 @@ def normalize_text(text):
 
 def strf_to_datetime(strf, form):
     return datetime.strptime(strf, form)
+
+if __name__ == "__main__":
+    print(' ')
